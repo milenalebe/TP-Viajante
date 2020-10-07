@@ -28,9 +28,8 @@ def menu(df=df):
     return ciudadIni
 
 def getRecorrido(ciudadIni,i=i,recorrido=recorrido,distancias=distancias,df=df):
-    if i==0:
-        print("hola")               # El bloque de aca es lo unico que se me ocurrio cuando me empezo a dar errores el drop de la ciudad inicial
-        df = df.drop(ciudadIni) 
+    if i==0:              
+        df = df.drop(ciudadIni)     # El bloque de aca es lo unico que se me ocurrio cuando me empezo a dar errores el drop de la ciudad inicial
         i = 1
     if (len(recorrido)==len(df.columns)):  # si entra por true es porque ya termino
 
