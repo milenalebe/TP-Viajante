@@ -160,6 +160,7 @@ def generarCromosomaInicial():
     rec = list(range(1,cantGenes+1))
     random.shuffle(rec)
     return rec
+#   POR QUÉ return random.shuffle(list(range(1,cantCiudades+1))) tira error!!??
 
 
 
